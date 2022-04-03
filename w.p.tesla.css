@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+}
+.page1 { 
+    position: absolute;
+    background: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/d0cecbbf-1a20-4b48-b136-fb096af19515/bvlatuR/std/2880x1800/model-3-main-hero-a-desktop);
+    width: 1950px;
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    color:#fff !important;
+}
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    width: 1950px;
+    height: 10vw;     
+}
+.logo-icon {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+.navbar1 {
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    list-style: none;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1; 
+}
+.navbar1_list {
+    padding: 5px 20px 5px 20px;
+}
+.navbar1_list:hover{
+    background-color: rgba(255, 255, 255, 0.281);
+    border-radius: 12px;  
+}
+.navbar1 ul .navbar1_list a:visited{
+    color: #fff;
+    }
+.navbar1 ul .navbar1_list a{
+        text-decoration: none;
+    }
+ul  {
+    position: absolute;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;  
+    margin: 20px 0 0 0; 
+}
+.navbar2 {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;  
+      
+}
+.navbar2 ul li{
+    top: 1px;
+    padding: 5px 1px 0 1px;
+    color: #fff;  
+    margin-right: 100px; 
+}
+.navbar2 ul li a:visited{
+color: #fff;
+}
+.navbar2 ul li a{
+    text-decoration: none;
+}
+.navbar2 li:hover {
+    background-color: hsla(0,0%,100%,.2);
+    border-radius: 12px;
+}
+.main-box {
+    position: absolute;
+    display: flex;
+    width: 1950px;
+}
+.main-box h1 {
+position: absolute;
+margin-top: 16vh;
+left: 850px;
+padding: 20px;
+font-size: 40px;
+}
+
+.navbar3 {
+    font-size: 30px;
+    display: flex;
+    list-style: none;  
+    right: 50px;
+    color:#94969a; 
+}
+.navbar3 ul{
+    flex-direction: column;
+    top: 300px;
+    left: 15px;
+}
+.page1-footer {
+    width: 1950px;
+    height:900px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: space-around; 
+}
+.page1_footer1 li{
+    font-size: 30px;
+    display: flex;
+    padding: 40px;
+    font-weight: bold;
+    
+}
+.page1_footer2 li{
+    position: relative;
+    font-size: 15px;
+    display: flex;
+    bottom: 20px;
+    padding: 0 35px 0 35px;
+    right: 130px;  
+}
+button {
+background-color:#94969a00;
+color: #fff;
+font-size: 15px;
+padding: 20px 40px 20px 40px;
+border-color: #fff;
+border-width: 3px;
+border-style: solid;
+border-radius: 30px;
+text-decoration: none;
+}
+button:hover {
+    background-color: #fff;
+}
+button:visited {
+    color: #fff;
+}
+.arrow {
+    position: relative;
+    border-bottom: #fff;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 100px;
+}
+/* }
+    .page2 {
+    position: absolute;
+    background: url();
+    width: 1950px;
+    height: 2000px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    color:#fff;
+    } */
+/* \
+<svg class="tds-icon tds-icon-logo-wordmark tds-site-logo-icon" viewBox="0 0 342 35" xmlns="http://www.w3.org/2000/svg"><path d="M0 .1a9.7 9.7 0 007 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 007-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 006-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 00-8.7 7h39.9v-21h-31.2v-7h24zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 007.1-7H78.3a9.6 9.6 0 007 7zm0 13.8h26a9.6 9.6 0 007.1-7H78.3a9.6 9.6 0 007 7zm0 14.1h26a9.6 9.6 0 007.1-7H78.3a9.6 9.6 0 007 7zM308.5 7h26a9.6 9.6 0 007-7h-40a9.6 9.6 0 007 7z" fill="currentColor"></path></svg>
+body::-webkit-scrollbar {
+    display: none;
+  }
+  -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    https://www.youtube.com/watch?v=KwoSm0E8MOE
+    From Avishai Peretz to Everyone 11:23 PM
+    avishai-peretz.com
+    From Eden Kricheli to Everyone 11:32 PM
+    <link href="http://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
+    family-font:'Gotham', sans-serif;
+    
+    
+    
+שניר גניש  5:08 PM
+@font-face {
+font-family: "gothamSSm";
+src: url(https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-Light_Web.woff2)
+format("woff2");
+font-weight: "light";
+}
+תוסיפו את זה לcss כדי שיהיה לכם מעבר כמו אצל טסלה בscroll
+white_check_mark
+eyes
+raised_hands
+
+
+
+
+
+מעבר כמו אצל טסלה בסקרול
+html {
+scroll-behavior: smooth;
+} */
